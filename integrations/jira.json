@@ -11,7 +11,7 @@
     }
   },
   "request": {
-    "baseURL": "https://${headers.atlassian_domain}.atlassian.net/rest/api/3/",
+    "baseURL": "https://api.atlassian.com/",
     "headers": {
       "Accept": "application/json",
       "Authorization": "Bearer ${auth.accessToken}",
